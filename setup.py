@@ -5,17 +5,13 @@ except ImportError:
 
 
 setup(
-    name="python_programming_demo_app",
+    name="simple_app",
     version="0.0.1",
-    packages=["roboter", "roboter.models", "roboter.controller", "roboter.views"],
-    # You could use find_packages if setuptools is installed.
-    # packages=find_packages(),
-    package_data={"roboter": ["templates/*.txt"]},
+    packages=["robot", "robot.models", "robot.controller", "robot.views"],
+    package_data={"robot": ["templates/*.txt"]},
     url="",
-    license="MIT",
-    author="jsakai",
-    author_email="example@example.com",
-    # You can specify install_requires if setuptools is installed
-    # install_requires=['termcolor==1.1.0'],
+    license="",
+    author="sjyb9394",
+    author_email="",
     long_description=open("README.txt").read(),
 )
